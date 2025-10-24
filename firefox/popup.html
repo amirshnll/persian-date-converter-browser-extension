@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مبدل تاریخ شمسی</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>مبدل تاریخ شمسی</h1>
+    </div>
+
+    <div class="tab-container">
+      <div class="tab active" data-tab="jalali-to-gregorian">شمسی به میلادی</div>
+      <div class="tab" data-tab="gregorian-to-jalali">میلادی به شمسی</div>
+    </div>
+
+    <div class="tab-content active" id="jalali-to-gregorian">
+      <div class="form-group">
+        <label>تاریخ شمسی:</label>
+        <div class="input-group">
+          <select id="jalali-year" class="input-field"></select>
+          <select id="jalali-month" class="input-field"></select>
+          <select id="jalali-day" class="input-field"></select>
+        </div>
+      </div>
+
+      <button id="convert-to-gregorian" class="button">تبدیل به میلادی</button>
+
+      <div class="result-container">
+        <div>تاریخ میلادی:</div>
+        <div id="gregorian-result" class="result-text ltr"></div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="gregorian-to-jalali">
+      <div class="form-group">
+        <label>تاریخ میلادی:</label>
+        <div class="input-group">
+          <select id="gregorian-year" class="input-field"></select>
+          <select id="gregorian-month" class="input-field"></select>
+          <select id="gregorian-day" class="input-field"></select>
+        </div>
+      </div>
+
+      <button id="convert-to-jalali" class="button">تبدیل به شمسی</button>
+
+      <div class="result-container">
+        <div>تاریخ شمسی:</div>
+        <div id="jalali-result" class="result-text rtl"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      Persian Date Converter v1.0.0 | <a href="https://ashokri.com" title="Donate" rel="nofollow noreferrer noopener"
+        target="_blank">Donate</a>
+    </div>
+  </div>
+
+  <script src="assets/js/farvardin.min.js"></script>
+  <script src="assets/js/popup.js"></script>
+</body>
+
+</html>
