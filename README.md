@@ -15,11 +15,11 @@ A browser extension that allows users to easily convert between Jalali (Persian/
 ## Installation
 
 ### Chrome
-1. Download the extension from the [Chrome Web Store](#).
+1. Download the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/persian-date-converter/ofijjkebkokkhiockljkmignjfjlieic).
 2. Click "Add to Chrome".
 3. The Persian Date Converter icon will appear in your browser toolbar.
 
 ### Firefox
-1. Download the add-on from [Firefox Add-ons](#).
+1. Download the add-on from [Firefox Add-ons](https://addons.mozilla.org/addon/persian-date-converter/).
 2. Click "Add to Firefox".
 3. The Persian Date Converter icon will appear in your browser toolbar.
